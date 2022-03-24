@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  section {
+    background-image: linear-gradient(
+      to right,
+      rgb(64, 65, 65),
+      rgb(220, 245, 252),
+      rgb(76, 165, 121)
+    );
+    padding: 3rem;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 30px 1px rgb(44, 74, 130);
+    margin: 0 auto;
+    margin-top: 200px;
+  }
+  
+  table {
+    width: 80%;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  thead {
+    background-image: linear-gradient(
+      to right,
+      rgb(214, 213, 220),
+      rgb(36, 42, 55)
+    );
+  }
+  
+  th,
+  td {
+    padding: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  tbody {
+    background-color: rgba(256, 256, 256, 0.2);
+  }
+  
+  .light {
+    background-color: rgba(90, 140, 70, 0.453);
+  }
+  
+  .lead {
+    color: whitesmoke;
+  }
+  
